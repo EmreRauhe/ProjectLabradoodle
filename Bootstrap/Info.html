@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap 4 Website Example</title>
+  <title>Informatie</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheet.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
+<style>
+  #introText{
+    float: right;
+  }
+</style>
 <body>
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <a class="navbar-brand" href="link">Project Labradoodle</a>
@@ -20,22 +26,127 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="link">Home</a>
+          <a class="nav-link" href="Home.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="link">Informatie</a>
+          <a class="nav-link nav-link active" href="Info.html">Informatie<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="link">Foto gallerij</a>
+          <a class="nav-link" href="Fotogallerij.html">Foto gallerij</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="link">Kruisingstabel</a>
+          <a class="nav-link" href="Kruisingstabel.html">Kruisingstabel</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="link">Contact</a>
+          <a class="nav-link" href="Contact.html">Contact</a>
         </li>
       </ul>
     </div>  
   </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-6 w-3">
+        <nav class="navbar navbar-expand-md bg-light navbar-light">
+          <ul class="navbar-nav navbar-text">
+            <li class="nav-item">
+              <a class="nav-link mb-2" href="Uiterlijk.html">Uiterlijk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mb-2" href="link">Oorsprong</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mb-2" href="link">Gezondheid</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mb-2" href="link">Omgang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mb-2" href="link">Controverse</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    <div class="col-md-3">
+      <div id="introText">
+        <h3>InhoudsOpgave</h3><br>
+        <ul>
+          <li>
+            <a>Uiterlijk</a>
+            <ul>
+              <li>
+                <a>Vacht</a>
+              </li>
+              <li>
+                <a>Grootte</a>
+              </li>
+              <li>
+                <a>Hoofd</a>
+              </li>
+              <li>
+                <a>Ogen</a>
+              </li>
+              <li>
+                <a>Staart</a>
+              </li>
+              <li>
+                <a>Aard</a>
+              </li>
+            </ul>
+          </li>
+          <br>
+          <li>
+            <a>Oorsprong</a>
+            <ul>
+              <li>
+                <a>Gebruiksdoel</a>
+              </li>
+              <li>
+                <a>Geschiedenis</a>
+              </li>
+            </ul>
+          </li>
+          <br>
+          <li>
+            <a>Gezondheid</a>
+            <ul>
+              <li>
+                <a>Meest voorkomende gezondheidsproblemen</a>
+              </li>
+              <li>
+                <a>Levensverwachting</a>
+              </li>
+            </ul>
+          </li>
+          <br>
+          <li>
+            <a>Omgang</a>
+            <ul>
+              <li>
+                <a>Verzorging</a>
+              </li>
+              <li>
+                <a>Opvoeding</a>
+              </li>
+              <li>
+                <a>Activiteiten</a>
+              </li>
+            </ul>
+          </li>
+          <br>
+          <li>
+            <a>Controverse</a>
+            <ul>
+              <li>
+                <a>Hypoallergeen</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+    </div>  
+    <div class="col-md-xs4">
+      <img src="LabradoodlePic1.jpg" class="rounded float-right" alt="Labradoodle" id="labrahond">
+    </div>
+  </div>
 </body>
 </html>
